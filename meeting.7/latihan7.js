@@ -15,7 +15,7 @@ person['name'] = "Faqot"
 console.log(person.name);
 
 console.log(person.umur);
-person['umur'] = 17
+person['umur'] = 21
 console.log(person['umur']);
 
 // Menggunakan dot
@@ -30,8 +30,8 @@ console.log(person.umur);
 
 
 // Tugas Bag 1 nomor 3
-delete person.city;
-console.log(person.kota);
+delete person.address.kota;
+console.log(person.address.kota);
 
 
 // Tugas Bag 2 Nomor 1
