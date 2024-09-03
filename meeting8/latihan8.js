@@ -44,3 +44,43 @@ let rectangle1 = new rectangle();
 console.log(rectangle1.draw());
 
 //soal 2 clear
+
+//soal 3 start
+
+class Person {
+    constructor(name) {
+        this.name = name;
+    }
+
+    introduce() {
+        return `Hi, my name is ${this.name}`;
+    }
+}
+
+class Employee extends Person {
+    constructor(name, position) {
+        super(name);
+        this.position = position;
+    }
+
+    introduce() {
+        return `Hi, my name is ${this.name} and I am an ${this.position}`;
+    }
+}
+
+class Manager extends Employee {
+    introduce() {
+        return `Hi, my name is ${this.name}, I am an ${this.position}, and I manage a team`;
+    }
+}
+
+let person = new Person("Ibrahim");
+console.log(person.introduce());
+
+let employee = new Employee("Fadel", "Angkatan 2");
+console.log(employee.introduce());
+
+let manager = new Manager("Wildan", "Angkatan 1");
+console.log(manager.introduce());
+
+//soal 3 clear
