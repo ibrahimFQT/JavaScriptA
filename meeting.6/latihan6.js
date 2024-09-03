@@ -1,10 +1,10 @@
 // Soal 1
-const identity   = ['Ibrahim', '16', 'Villa Bintaro']
-console.log(identity);
+const identity   = ['Ibrahim', '16', 'Tanggerang Selatan']
+console.log(identity[2]);
 
 // Soal 2
 identity[0] = 'Ibrahim Faqot'
-console.log(identity);
+console.log(identity[0]);
 
 // Soal 3
 // identity.splice(1,1);
@@ -17,7 +17,7 @@ const angka3 = angka1.concat(angka2)
 console.log(angka3);
 
 // Soal 5
-console.log(identity.indexOf('Villa Bintaro'));
+console.log(identity.indexOf('Tanggerang Selatan'));
 
 // soal 6
 function compareNumbers(a, b) {
